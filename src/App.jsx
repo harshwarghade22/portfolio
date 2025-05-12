@@ -26,9 +26,9 @@ const Header = () => {
       <div className="text-lg font-medium">Harsh'S</div>
       <nav className="hidden md:flex space-x-8">
         <NavLink href="#" label="Home" active />
-        <NavLink href="#case-studies" label="Case Studies" />
+        {/* <NavLink href="#case-studies" label="Case Studies" /> */}
         <NavLink href="#testimonials" label="Testimonials" />
-        {/* <NavLink href="#recent-work" label="Recent work" /> */}
+        <NavLink href="#recent-work" label="Recent work" />
         <NavLink href="#contact" label="Get In Touch" />
       </nav>
       <div className="flex space-x-4">
